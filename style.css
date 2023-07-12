@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+body {
+	background-color: rgb(46, 35, 99);
+	
+}
+body * {
+	font-family: "nunito", sans-serif;
+}
+div {
+    
+	height: 400px;
+	width: 50vw;
+	background-color: rgb(243, 222, 103);
+	margin: auto;
+	position: relative;
+	top: 150px;
+	border-radius: 20px;
+	box-shadow: 3px 3px grey;
+}
+input {
+	height: 50px;
+	font-size: 18px;
+	width: 10vw;
+	border-radius: 8px;
+	border: 1.5px solid black;
+	position: absolute;
+	padding-left: 5px;
+}
+h1 {
+	position: absolute;
+	text-align: center;
+	width: 90vw;
+	top: 20px;
+	left: 5vw;
+    font-size:60px;
+	font-style: italic;
+	color: white;
+}
+select {
+	height: 60px;
+	width: 10vw;
+	font-size: 15px;
+	border-radius: 8px;
+	border: 1.5px solid black;
+	position:absolute;
+}
+label {
+	display: block;
+	margin: 10px 0 10px 0;
+	position: absolute;
+}
+label[for*="temp"] {
+	top: 15px;
+	left: 4vw;
+	font-size:large
+}
+input#temp {
+	top: 60px;
+	left: 4vw;
+}
+label[for*="unit"] {
+	left: 20vw;
+	top: 15px;
+	font-size: large;
+}
+select#unit {
+	left: 20vw;
+	top: 60px;
+	font-size: large;
+}
+button {
+	height: 60px;
+	width: 10vw;
+	position: absolute;
+	top: 60px;
+	background: black;
+	border-radius: 5px;
+	border: none;
+	left: 35vw;
+	font-weight: bold;
+	color: white;
+	font-size: medium;
+}
+label#resultlabel {
+	top: 150px;
+	left: 4vw;
+	font-size: large;
+}
